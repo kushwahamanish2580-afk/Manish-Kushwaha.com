@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio | Manish Kushwaha</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Manish</div>
+
+    <nav>
+        <ul>
+            <li><a href="#home" class="active">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#resume">RESUME</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+        <img src="profile.jpeg" alt="Profile" class="profile-img">
+        <h1>Hi, I'm <span>MANISH KUSHWAHA</span></h1>
+        <p>I'm SR. MIS EXECUTIVE</p>
+    </div>
+</section>
+
+<section id="about" class="section about-section">
+    <div class="about-container">
+
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I am a results-driven Senior MIS Executive with strong expertise in 
+                data management, reporting automation, and performance analytics.
+            </p>
+            <p>
+                I specialize in Google Sheets, Advanced Excel, Looker Studio, and 
+                Google Apps Script to build automated dashboards and workflow systems 
+                that improve operational efficiency.
+            </p>
+            <p>
+                My goal is to transform complex data into meaningful insights that 
+                support better business decisions.
+            </p>
+        </div>
+
+        <div class="about-cards">
+            <div class="card">3+ Years Experience</div>
+            <div class="card">30+ Automated Reports</div>
+            <div class="card">Dashboard Specialist</div>
+            <div class="card">Data Mining Expert</div>
+        </div>
+
+    </div>
+</section>
+
+<section id="resume" class="section resume-section">
+    <div class="resume-container">
+
+        <h2 class="section-title">Resume</h2>
+
+        <div class="resume-grid">
+
+            <!-- LEFT COLUMN -->
+            <div class="resume-left">
+
+                <!-- Professional Summary -->
+                <div class="resume-block">
+                    <h3>Professional Summary</h3>
+                    <p>
+                        Experienced Sr. MIS Executive currently working at Aldas India Pvt Limited.
+                        Skilled in data management, MIS reporting, dashboard creation, and operational tracking.
+                        Strong expertise in Excel, Google Sheets, and data analysis to deliver accurate reports
+                        and actionable insights for management decision-making.
+                    </p>
+                </div>
+
+                <!-- Work Experience -->
+                <div class="resume-block">
+                    <h3>Professional Experience</h3>
+
+                    <div class="timeline-item">
+                        <h4>Sr. MIS Executive – Aldas India Pvt Limited</h4>
+                        <span>06 January 2026 – Present</span>
+                        <ul>
+                            <li>Responsible for overall data management.</li>
+                            <li>Handling four teams including Data Entry Operators & Process Coordinators.</li>
+                            <li>Prepared daily, weekly, and monthly MIS reports.</li>
+                            <li>Managed inventory & production performance tracking.</li>
+                            <li>Created dashboards and automated reports.</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>MIS Executive – Magic Bus India Foundation</h4>
+                        <span>18 July 2024 – 06 January 2026</span>
+                        <ul>
+                            <li>Prepared daily, weekly, and monthly MIS reports.</li>
+                            <li>Managed student enrollment & placement records.</li>
+                            <li>Created dashboards and performance trackers.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="resume-right">
+
+                <!-- Skills -->
+                <div class="resume-block">
+                    <h3>Technical Skills</h3>
+                    <ul class="skills-list">
+                        <li>Advanced MS Excel</li>
+                        <li>Google Sheets Automation</li>
+                        <li>Looker Studio</li>
+                        <li>Power BI</li>
+                        <li>MySQL</li>
+                        <li>HTML</li>
+                        <li>Data Mining</li>
+                        <li>MIS Reporting</li>
+                        <li>Dashboard Development</li>
+                        <li>Data Analysis & Visualization</li>
+                    </ul>
+                </div>
+
+                <!-- Education -->
+                <div class="resume-block">
+                    <h3>Education</h3>
+                    <p>Bachelor's Degree – Deen Dayal Upadhyay University, Gorakhpur</p>
+                    <p>12th & 10th – U.P. Board</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<section id="contact" class="section contact-section">
+
+    <div class="contact-container">
+
+        <h2 class="section-title">Get In Touch</h2>
+
+        <p class="contact-subtext">
+            I’m open to MIS roles, data automation projects, and dashboard development opportunities.
+            Feel free to contact me for collaboration or professional discussions.
+        </p>
+
+        <div class="contact-content">
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Phone:</strong> 6392578230</p>
+                <p><strong>Email:</strong> kushwahamanish2580@gmail.com</p>
+                <p><strong>Location:</strong> New Delhi, India</p>
+                <p>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/manish-kushwaha-150745263?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">
+                        View Profile
+                    </a>
+                </p>
+            </div>
+
+            <div class="contact-form">
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script>
+const sections = document.querySelectorAll(".section");
+const navLinks = document.querySelectorAll("nav ul li a");
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+
+    header.classList.toggle("scrolled", window.scrollY > 50);
+
+    let current = "";
+
+    sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        if (window.scrollY >= sectionTop) {
+            current = section.getAttribute("id");
+        }
+    });
+
+    navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href") === "#" + current) {
+            link.classList.add("active");
+        }
+    });
+
+    sections.forEach(section => {
+        const triggerBottom = window.innerHeight * 0.85;
+        const sectionTop = section.getBoundingClientRect().top;
+
+        if (sectionTop < triggerBottom) {
+            section.classList.add("show");
+        }
+    });
+
+});
+</script>
+
+</body>
+</html>
